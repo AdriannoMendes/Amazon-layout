@@ -128,9 +128,6 @@ strong{
     height: 14px;
     font-weight: 400;
 }
-
-
-
 .menu{
     display: flex;
     align-items: center;
@@ -175,4 +172,35 @@ strong{
     background-size: cover;
     width: 400px;
     height: 30px;
+}
+
+/*FIM DO CABEÇALHO E NAVEGAÇÃO*/
+
+
+.carrossel{
+    width: auto;
+    height: 500px;
+    background-image: url("imagen/fundo-azul-amazon.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    background-position: 50% 50%;    
+}
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
 }
